@@ -1,0 +1,24 @@
+h1 {
+  color: white;
+  background-color: black;
+  padding: 16px;
+  font-family:sans-serif;
+}
+.h1-span {
+  color: aqua;
+}
+h2{
+    color: white;
+    background-color: blueviolet;
+    padding: 16px;
+    text-align: center;
+    font-style: italic;
+}
+.contact-link{
+    background-color: rgb(116, 208, 211);
+    text-align: end;
+    display:block;
+    padding: 10px;
+    font-family: sans-serif;
+    
+}
