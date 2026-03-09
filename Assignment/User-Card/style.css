@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-blue {
+  background-color: #87ceeb;
+  width: 500px;
+  position: relative;
+  height: 90px;
+  z-index: 10;
+  margin-left: -3px;
+  margin-top: -3px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 500px;
+  height: 300px;
+  border: 3px solid gray;
+}
+.user-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -50px;
+  z-index: 20;
+  border: 3px solid #fff;
+}
+.info {
+  padding-left: 16px;
+}
+.address,
+.gear {
+  width: 15px;
+  height: 15px;
+  padding-right: 5px;
+}
+.location {
+  margin: 8px 0px;
+}
+
+.gear {
+  margin-top: 8px;
+}
