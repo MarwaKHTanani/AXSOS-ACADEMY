@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1 class="nav-title">Profile</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" id="active">My Profile</a></li>
+        <li><a href="#">Find Connections</a></li>
+      </ul>
+      <button>Sign out</button>
+    </nav>
+
+    <div class="container">
+      <div class="left-column">
+        <div class="card">
+          <div class="bg-blue"></div>
+          <div class="info">
+            <img
+              src="./assets/user-circle.png"
+              alt="user photo"
+              class="user-photo"
+            />
+            <h2>John Doe</h2>
+            <div class="location">
+              <img
+                src="./assets/map-marker.png"
+                alt="address icon"
+                class="address"
+              />
+              <span>Seattle</span>
+            </div>
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+
+            <a href="#"
+              ><img class="gear" src="./assets/gear.png" />Edit Profile</a
+            >
+          </div>
+        </div>
+        <div class="education">
+          <div class="">
+            <div class="bg-gray"></div>
+            <h2>Education</h2>
+            <div class="info">
+              <p class="edu-name">coding dojo-full stack bootcamp</p>
+              <span>Dec 2019-Mar 2020</span>
+              <p>Triple black belt in Python,MERN, and C#...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="request">
+          <div class="bg-gray"></div>
+          <h2><span>2</span>connection Requests</h2>
+          <div class="req-name">
+            <div class="profile">
+              <img src="./assets/user-circle.png" class="user-icon" />
+              <h3>Todd E</h3>
+            </div>
+            <div>
+              <span>✓</span>
+              <span>X</span>
+            </div>
+          </div>
+          <div class="req-name">
+            <div class="profile">
+              <img src="./assets/user-circle.png" class="user-icon" />
+              <h3>Phil K</h3>
+            </div>
+            <div>
+              <span>✓</span>
+              <span>X</span>
+            </div>
+          </div>
+        </div>
+        <div class="ur-connection">
+          <div class="bg-gray"></div>
+          <h2><span>+500</span>Your connections</h2>
+          <div class="con-name">
+            <img src="./assets/user-circle.png" class="user-icon" />
+            <h3>Adrien D</h3>
+          </div>
+          <div class="con-name">
+            <img src="./assets/user-circle.png" class="user-icon" />
+            <h3>Anne J</h3>
+          </div>
+          <div class="con-name">
+            <img src="./assets/user-circle.png" class="user-icon" />
+            <h3>Alayne T</h3>
+          </div>
+          <div class="con-name">
+            <img src="./assets/user-circle.png" class="user-icon" />
+            <h3>Arry Y</h3>
+          </div>
+          <a href="#" class="view-link">view more</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

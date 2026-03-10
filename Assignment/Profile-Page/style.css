@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: black;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.nav-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.nav a {
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+}
+#active,
+button {
+  color: white;
+}
+
+button {
+  background-color: deepskyblue;
+  padding: 5px 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.bg-blue,
+.bg-gray {
+  position: relative;
+  z-index: 10;
+  margin: -3px 0px 0px -3px;
+}
+.bg-blue {
+  background-color: #87ceeb;
+  width: 400px;
+  height: 90px;
+}
+.bg-gray {
+  background-color: gray;
+  height: 45px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.card,
+.education,
+.ur-connection,
+.request {
+  border: 3px solid gray;
+  padding-bottom: 16px;
+}
+.user-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -50px;
+  z-index: 20;
+  border: 3px solid #fff;
+}
+.info {
+  padding-left: 16px;
+}
+.address,
+.gear {
+  width: 15px;
+  height: 15px;
+  padding-right: 5px;
+}
+.location,
+.gear {
+  margin-top: 8px;
+}
+.location{
+  display: flex;
+}
+
+.user-icon {
+  width: 30px;
+  height: 30px;
+}
+.req-name,
+.con-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0px 6px 16px;
+}
+.right-column,
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.request h2,
+.ur-connection h2,
+.education h2 {
+  position: relative;
+  margin-top: -35px;
+  z-index: 20;
+}
+.request h2,
+.ur-connection h2 {
+  margin-bottom: 10px;
+}
+.education h2 {
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+.request span,
+.ur-connection span {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 2px 10px;
+  border-radius: 50%;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.req-name span {
+  background-color: rgb(194, 194, 194);
+  color: white;
+  padding: 6px;
+}
+.req-name {
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.view-link {
+  padding: 6px 0px 0px 6px;
+  display: block;
+  border-top: 3px solid gray;
+  font-size: 20px;
+}
+.edu-name {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.info span {
+  color: rgb(49, 49, 49);
+  display: block;
+  padding-bottom: 5px;
+}
