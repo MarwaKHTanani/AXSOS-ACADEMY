@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>button clicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Dojonary</h1>
+      <input type="search" placeholder="search" />
+      <button class="log-button" onclick="login(this)">Login</button>
+    </nav>
+    <div class="container">
+      <div class="left-col">
+        <div class="card">
+          <div class="info">
+            <h2>ninja</h2>
+            <span>noun</span>
+            <p>Plural: ninjas</p>
+            <button class="like-btn" onclick="like(this)">13 likes</button>
+          </div>
+          <div class="definition">
+            <p>
+              A practitioner skilled in the <a href="#">japanese</a> art of
+              <a href="#">ninjutsu</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="info">
+            <h2>ninja</h2>
+            <span>noun</span>
+            <p>Plural: ninjas</p>
+            <button class="like-btn" onclick="like(this)">37 likes</button>
+          </div>
+          <div class="definition">
+            <p>
+              A <a href="#">programmer</a> who breaks down problems with
+              <a href="#">zen</a>-like focus
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right-col">
+        <div class="card2">
+          <p>Dojonary is defined by <strong>YOU</strong></p>
+          <button onclick="definition(this)">add Definition</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

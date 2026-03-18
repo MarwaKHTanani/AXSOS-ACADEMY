@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #bdc5ce;
+  width: 60%;
+  padding: 16px;
+}
+nav input {
+  padding: 4px;
+  border-radius: 2px;
+  border: 2px solid black;
+}
+.log-button {
+  padding: 4px;
+  border-radius: 2px;
+  border: 2px solid black;
+  background-color: blue;
+  color: white;
+  box-shadow: 3px 3px 0px black;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.left-col {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-col {
+  flex: 1;
+}
+.info {
+  flex: 1;
+}
+.like-btn {
+  padding: 4px;
+  border-radius: 2px;
+  border: 2px solid black;
+  background-color: rgb(228, 197, 63);
+  color: black;
+  box-shadow: 3px 3px 0px black;
+  margin-top: 5px;
+}
+.definition {
+  flex: 2;
+  font-size: 20px;
+}
+.card {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.card2 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 26px;
+}
+.card2 p {
+  font-size: 24px;
+}
+.card2 button {
+  padding: 6px 12px;
+  border-radius: 2px;
+  border: 2px solid black;
+  background-color: rgb(103, 202, 119);
+  color: black;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: 3px 3px 0px black;
+  margin-top: 16px;
+}
