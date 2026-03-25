@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="nav">
+    <nav>
+        <div class="nav-content">
       <h1 class="nav-title">Profile</h1>
       <ul class="nav-links">
         <li><a href="#">Home</a></li>
@@ -15,6 +16,7 @@
         <li><a href="#">Find Connections</a></li>
       </ul>
       <button>Sign out</button>
+        </div>
     </nav>
 
     <div class="container">
@@ -27,7 +29,7 @@
               alt="user photo"
               class="user-photo"
             />
-            <h2>John Doe</h2>
+            <h2 class="name">John Doe</h2>
             <div class="location">
               <img
                 src="./assets/map-marker.png"
@@ -39,7 +41,7 @@
             <p>Developer | Engineer | Problem Solver</p>
             <p>Master of shadows and the Internet!</p>
 
-            <a href="#"
+            <a href="#" onclick="editBtn(this)"
               ><img class="gear" src="./assets/gear.png" />Edit Profile</a
             >
           </div>
@@ -57,15 +59,15 @@
       <div class="right-column">
         <div class="request">
           <div class="bg-gray"></div>
-          <h2><span>2</span>connection Requests</h2>
+          <h2><span class="req-number">2</span>connection Requests</h2>
           <div class="req-name">
             <div class="profile">
               <img src="./assets/user-circle.png" class="user-icon" />
               <h3>Todd E</h3>
             </div>
-            <div>
-              <span>✓</span>
-              <span>X</span>
+            <div class="state">
+              <span class="accept" onclick="handleReq(this, 'accept')">✓</span>
+              <span class="delete" onclick="handleReq(this, 'delete')">X</span>
             </div>
           </div>
           <div class="req-name">
@@ -73,15 +75,15 @@
               <img src="./assets/user-circle.png" class="user-icon" />
               <h3>Phil K</h3>
             </div>
-            <div>
-              <span>✓</span>
-              <span>X</span>
+            <div class="state">
+              <span class="accept" onclick="handleReq(this, 'accept')">✓</span>
+              <span class="delete" onclick="handleReq(this, 'delete')">X</span>
             </div>
           </div>
         </div>
         <div class="ur-connection">
           <div class="bg-gray"></div>
-          <h2><span>+500</span>Your connections</h2>
+          <h2><span class="con-number">418</span>Your connections</h2>
           <div class="con-name">
             <img src="./assets/user-circle.png" class="user-icon" />
             <h3>Adrien D</h3>
@@ -102,5 +104,6 @@
         </div>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
