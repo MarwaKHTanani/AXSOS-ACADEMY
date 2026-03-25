@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 30%;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+.like-btn {
+  padding: 4px;
+  border-radius: 2px;
+  border: 2px solid black;
+  background-color: rgb(228, 197, 63);
+  color: black;
+  box-shadow: 3px 3px 0px black;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 6px;
+}
