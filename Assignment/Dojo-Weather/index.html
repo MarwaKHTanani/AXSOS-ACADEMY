@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>DojoWeather</h1>
+      <ul>
+        <li><a href="#" onclick="displayCity(this)">Burbank</a></li>
+        <li><a href="#" onclick="displayCity(this)">Chicago</a></li>
+        <li><a href="#" onclick="displayCity(this)">Dallas</a></li>
+      </ul>
+    </nav>
+
+    <div class="location">
+      <h2 class="city">San Jose</h2>
+      <div class="temp">
+        <p>show temperature in</p>
+        <select onchange="convertTemp(this)">
+          <option value="c">C°</option>
+          <option value="f">F°</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h3>Today</h3>
+        <img src="./assets/some_rain.png" alt="Weather Icon" />
+        <span>Some rain</span>
+        <div>
+          <span class="highest value"> 24°</span>
+          <span class="lowest value"> 18°</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Tomorrow</h3>
+        <img src="./assets/some_sun.png" alt="Weather Icon" />
+        <span>Some sun</span>
+        <div>
+          <span class="highest value"> 27°</span>
+          <span class="lowest value"> 19°</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Friday</h3>
+        <img src="./assets/some_clouds.png" alt="Weather Icon" />
+        <span>Some clouds</span>
+        <div>
+          <span class="highest value"> 21°</span>
+          <span class="lowest value"> 16°</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Saturday</h3>
+        <img src="./assets/some_sun.png" alt="Weather Icon" />
+        <span>Some sun</span>
+        <div>
+          <span class="highest value"> 26°</span>
+          <span class="lowest value"> 21°</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cookie-section">
+      <img src="./assets/cookie.png" alt="cookie" />
+      <div class="cookie-msg">
+        <h4>Stop! Cookie time</h4>
+        <p>
+          we use cookie(sadly not the edible one) to personalize content and
+          ods, to provide social media features and to analyze our traffic.<a
+            href="#"
+            >Read more</a
+          >
+        </p>
+      </div>
+      <button class="accept-btn" onclick="acceptCookie(this)">I accept</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
